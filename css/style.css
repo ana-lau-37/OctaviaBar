@@ -11,6 +11,9 @@
 .imagen {
 	background-image: url(../imagenes/imagen\ de\ portada.webp);
 	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* SERVICIO */
@@ -20,10 +23,15 @@
 .contacto {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.829);
-	width: 1000px;
+	width: 100%;
 	height: 600px;
 	margin-left: 20px;
 	margin-top: 10px;
+}
+
+.contacto__input {
+	width: 100%;
+	padding: 1000px;
 }
 
 /* NOSOTROS */
@@ -55,18 +63,13 @@
 	text-align: center;
 	padding: 10px;
 }
-.lorem {
-	color: white;
-	background-color: rgba(0, 0, 0, 0.815);
-	padding: 10px;
-	margin: 20px;
-	width: 1000px;
+
+.accordion {
+	padding: 100px;
+	border: solid rgb(0, 0, 0);
+	width: 100%;
 }
-.logo {
-	height: 200px;
-	width: 200px;
-	padding: 20px;
-}
+
 .footer {
 	color: black;
 	background-image: url(../imagenes/Free_Sample_By_Wix.png);
