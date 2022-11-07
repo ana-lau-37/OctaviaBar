@@ -22,25 +22,18 @@
 
 .contacto {
 	color: white;
-	background-color: rgba(0, 0, 0, 0.829);
+	background-color: rgba(0, 0, 0, 0.781);
 	width: 100%;
-	height: 600px;
-	margin-left: 20px;
-	margin-top: 10px;
-}
-
-.contacto__input {
-	width: 100%;
-	padding: 1000px;
+	height: 800px;
+	margin: 0, 20, 20, 20;
+	padding: 20px;
 }
 
 /* NOSOTROS */
 .somos {
 	background-color: rgba(0, 0, 0, 0.781);
 	width: 100%;
-	height: 600px;
-	margin: 20px;
-	padding: 20px;
+	height: 800px;
 }
 .somos p {
 	margin-bottom: 10px;
