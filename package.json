@@ -16,5 +16,8 @@
     "url": "https://github.com/ana-lau-37/OctvaiaBar/issues"
   },
   "homepage": "https://github.com/ana-lau-37/OctvaiaBar#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
 }
