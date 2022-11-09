@@ -8,13 +8,7 @@
   padding: 20px;
 }
 
-/** @format */
-.footer {
-  color: black;
-  background-image: url(../imagenes/Free_Sample_By_Wix.png);
-}
-
-/** @format */
+/** @format */ /** @format */
 .imagen {
   background-image: url(../imagenes/portada\ opcional.jpg);
   height: 100vh;
@@ -64,8 +58,33 @@
 }
 
 /** @format */ /** @format */
-.card:hover {
+.row {
+  background-color: grey;
   transition: all 1s;
+}
+
+.card {
+  padding: 30px;
+  margin: 30px;
+}
+
+/** @format */
+@media screen and (max-width: 480px) {
+  .row {
+    background-color: #5f9ea0;
+  }
+  .contacto {
+    background-color: #5f9ea0;
+  }
+  .titulos1y2 {
+    color: #5f9ea0;
+  }
+}
+/** @format */
+.accordion {
+  padding: 100px;
+  border: solid rgb(0, 0, 0);
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
