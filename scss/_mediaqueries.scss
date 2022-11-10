@@ -1,13 +1,30 @@
 /** @format */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
 	.row {
 		background-color: #5f9ea0;
+		text-decoration: double;
 	}
 	.contacto {
 		background-color: #5f9ea0;
 	}
 	.titulos1y2 {
 		color: #5f9ea0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.somos {
+		width: 100%;
+		height: 100%;
+	}
+
+	.somos p {
+		width: 100%;
+		height: 100%;
+	}
+
+	.tutorial {
+		background-color: none;
 	}
 }
