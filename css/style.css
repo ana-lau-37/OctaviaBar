@@ -8,7 +8,26 @@
   padding: 20px;
 }
 
-/** @format */ /** @format */
+/** @format */
+.footer {
+  background-color: rgba(0, 0, 0, 0.781);
+  position: static;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--1 {
+  width: 100px;
+  height: 100px;
+}
+
+.fa-brands {
+  color: rgb(14, 0, 0);
+  justify-content: center;
+}
+
+/** @format */
 .imagen {
   background-image: url(../imagenes/portada\ opcional.jpg);
   height: 100vh;
@@ -40,7 +59,7 @@
 }
 
 .somos p {
-  color: rgba(2, 2, 27, 0.527);
+  color: rgb(0, 0, 12);
   background-color: rgba(240, 255, 255, 0.5);
   margin-bottom: 10px;
   padding: 30px;
@@ -113,6 +132,11 @@
   }
   .tutorial {
     background-color: none;
+  }
+  .accordion {
+    padding: 100px;
+    border: solid rgb(0, 0, 0);
+    height: 100%;
   }
 }
 /** @format */
