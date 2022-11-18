@@ -6,25 +6,26 @@
   height: 800px;
   margin: 0, 20, 20, 20;
   padding: 20px;
+  justify-content: center;
 }
 
 /** @format */
-.footer {
-  background-color: rgba(0, 0, 0, 0.781);
+footer .footer {
+  background-color: rgba(0, 0, 0, 0.329);
   position: static;
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
 }
-
-.footer--1 {
+footer .footer--1 {
   width: 100px;
   height: 100px;
+  display: flex;
+  display: inline;
 }
-
-.fa-brands {
+footer .pie {
+  background-color: rgba(0, 0, 0, 0.781);
   color: rgb(14, 0, 0);
-  justify-content: center;
+  display: flex;
+  justify-content: end;
 }
 
 /** @format */
@@ -144,6 +145,12 @@
   padding: 100px;
   border: solid rgb(0, 0, 0);
   width: 100%;
+}
+
+/** @format */
+.logo {
+  width: 100px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

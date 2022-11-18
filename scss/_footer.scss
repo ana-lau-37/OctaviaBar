@@ -1,18 +1,22 @@
 /** @format */
-.footer {
-	background-color: rgba(0, 0, 0, 0.781);
-	position: static;
-	padding: 10px;
-	display: flex;
-	justify-content: space-between;
-}
+footer {
+	.footer {
+		background-color: rgba(0, 0, 0, 0.329);
+		position: static;
+		padding: 10px;
+	}
 
-.footer--1 {
-	width: 100px;
-	height: 100px;
-}
+	.footer--1 {
+		width: 100px;
+		height: 100px;
+		display: flex;
+		display: inline;
+	}
 
-.fa-brands {
-	color: rgb(14, 0, 0);
-	justify-content: center;
+	.pie {
+		background-color: rgba(0, 0, 0, 0.781);
+		color: rgb(14, 0, 0);
+		display: flex;
+		justify-content: end;
+	}
 }
