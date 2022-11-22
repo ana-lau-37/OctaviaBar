@@ -1,31 +1,61 @@
 /** @format */ /** @format */
 .contacto {
   color: white;
-  background-color: rgba(0, 0, 0, 0.781);
+  background-color: rgba(0, 0, 0, 0.404);
+  margin: 0px;
+  padding: 10px;
   width: 100%;
-  height: 800px;
-  margin: 0, 20, 20, 20;
-  padding: 20px;
-  justify-content: center;
+  justify-content: space-between;
+  align-content: space-between;
+  border: solid 5px rgba(0, 0, 0, 0.788);
 }
 
 /** @format */
-footer .footer {
-  background-color: rgba(0, 0, 0, 0.329);
-  position: static;
-  padding: 10px;
-}
-footer .footer--1 {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  display: inline;
-}
-footer .pie {
+.pie-pagina {
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.781);
-  color: rgb(14, 0, 0);
+}
+.pie-pagina .box {
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-content: center;
+}
+.pie-pagina .box .seguinos {
+  color: rgba(255, 255, 255, 0.37);
+  margin: bottom 25px;
+  font-size: 20px;
+  margin: 20px;
+}
+.pie-pagina .box .redes-sociales a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: rgba(5, 112, 112, 0.774);
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.349);
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .logo-ana {
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+}
+.pie-pagina .logo-ana .creado {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.37);
+  text-align: left;
+}
+.pie-pagina .logo-ana .imagen {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
 
 /** @format */
@@ -62,8 +92,8 @@ footer .pie {
 .somos p {
   color: rgb(0, 0, 12);
   background-color: rgba(240, 255, 255, 0.5);
-  margin-bottom: 10px;
-  padding: 30px;
+  margin: 10px;
+  padding: 60px;
   text-align: center;
 }
 
@@ -89,14 +119,12 @@ footer .pie {
   background-color: grey;
   transition: all 1s;
 }
-
-.card {
-  padding: 30px;
-  margin: 30px;
+.row .card {
+  padding: 10px;
+  margin: 10px;
   -webkit-animation: rotate-in-2-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   animation: rotate-in-2-cw 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-
 @keyframes rotate-in-2-cw {
   0% {
     -webkit-transform: rotate(-45deg);
@@ -109,7 +137,49 @@ footer .pie {
     opacity: 1;
   }
 }
+
 /** @format */
+@media screen and (max-width: 768px) {
+  .row {
+    background-color: #5f9ea0;
+    text-decoration: double;
+  }
+  .contacto {
+    background-color: #5f9ea0;
+  }
+  .titulos1y2 {
+    color: #5f9ea0;
+    width: 100%;
+    height: 100%;
+  }
+  .somos {
+    width: 100%;
+    height: 100%;
+  }
+  .somos p {
+    width: 100%;
+    height: 100%;
+  }
+  .tutorial {
+    background-color: none;
+  }
+  .accordion {
+    padding: 100px;
+    border: solid rgb(0, 0, 0);
+    height: 100%;
+  }
+  .pie-pagina .box {
+    width: 100%;
+    padding: 35px;
+    display: inline;
+  }
+  .pie-pagina .logo-ana {
+    width: 100%;
+    padding: 35px;
+    display: flex;
+    display: inline;
+  }
+}
 @media screen and (max-width: 450px) {
   .row {
     background-color: #5f9ea0;
@@ -139,6 +209,14 @@ footer .pie {
     border: solid rgb(0, 0, 0);
     height: 100%;
   }
+  .pie-pagina .box {
+    width: 100%;
+    padding: 35px;
+    display: inline;
+  }
+  .pie-pagina .imagen {
+    margin: 10px;
+  }
 }
 /** @format */
 .accordion {
@@ -151,6 +229,17 @@ footer .pie {
 .logo {
   width: 100px;
   height: 100px;
+}
+
+/** @format */
+.accordion {
+  padding: 100px;
+  border: solid 5px rgba(0, 0, 0, 0.788);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.404);
+}
+.accordion .accordion-item {
+  background-color: rgba(0, 0, 0, 0.144);
 }
 
 /*# sourceMappingURL=style.css.map */

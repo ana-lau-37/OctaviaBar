@@ -30,7 +30,6 @@
 		/>
      </head>
 	<body> 
-	 <div class="container">
 		<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 			<div class="container-fluid">
 				<img class="logo" src="./imagenes/Octavia Bar.jpg" alt="Logo" />
@@ -61,25 +60,23 @@
 			<h1 class="titulos">Octavia</h1>
 			<h2>Mobile Bar</h2>
 		</div>
-		<br>
-		<br>
+	    <div>
 		 <form class="contacto">
+			<div>
 			<label for="nombre"> Nombre </label>
 			<input class="contacto__input" type="text" id="Nombre" required />
-			<br />
-			<br>
+			</div>
+			<div>
 			<label for="apellido">Apellido</label>
 			<input type="text" id="Apellido" required />
-			<br />
-			<br>
+			</div>
 			<label for="email">Email</label>
 			<input type="email" id="Email" required />
-			<br />
-			<br>
+            <div>
 			<label for="number">Numero de telefono</label>
 			<input type="number" id="Numero de telefono" required />
-			<br />
-			<br>
+			</div>
+			<div>
 			<label for="tipo de evento">Tipo de evento
             <select name="" id="">
 				<option>Boda</option>
@@ -88,20 +85,20 @@
 				<option>Corporativo</option>
 				<option>Otros</option>
 			</select>
+			</div>
 			</label>
-			<br />
-			<br>
+			<div>
 			<label for="Servicio">Servicio</label>
 			<select name="" id="">
 	            <option>Premium</option>
 				<option>Clasica</option>
 			</select>
-			<br />
-			<br>
+			</div>
+			<div>
 			<label for="Cantidad de invitados">Cantidad de invitados</label>
 			<input type="text" id="Cantidad de invitados" required />
-			<br />
-			<br>
+			</div>
+			<div>
 			<label for="Observaciones">Observaciones</label>
 			<textarea
 				name=""
@@ -110,32 +107,49 @@
 				rows="10"
 				required
 			></textarea>
-			<br>
-			<br>
-        <div> Acepta terminos y condiciones</div>
+			</div>
+        <div> 
+			Acepta terminos y condiciones
+		</div>
+		    <div>
             <label for="si">
 				<input type="radio" name="siono" id="si">Si
 			</label>
+			</div>
+			<div>
 			<label for="no">
 				<input type="radio" name="siono" id="no">No
 			</label>
-            <br>
-			<br>
+            </div>
+			<div>
             <button type="submit">Enviar<button>
 			<button type="reset">Limpiar</button>
+			</div>
 		</form>
-		<footer class="footer">
-			<img class="footer--1" src="./imagenes/Octavia Bar.png" alt="logo" />
-			<img
-				class="footer--1"
-				src="./imagenes/Free_Sample_By_Wix.png"
-				alt="footer"
-			/>
-			<i class="fa-brands fa-whatsapp"></i>
-			<i class="fa-brands fa-instagram"></i>
-			<i class="fa-brands fa-facebook"></i>
+	   </div>
+		<footer>
+			<div class="pie-pagina">
+				<div class="box">
+					<h3 class="seguinos">Seguinos</h3>
+					<div class="redes-sociales">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-instagram"></a>
+						<a href="#" class="fa fa-whatsapp"></a>
+					</div>
+					<div class="logo-ana">
+						<strong class="creado">Creado por</strong>
+						<a href="#">
+							<img
+								class="imagen"
+								src="./imagenes/Free_Sample_By_Wix.png"
+								alt="Logo"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
 		</footer>
-     </div>
+     
 	 <script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
